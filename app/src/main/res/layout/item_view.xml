@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/corner_radius"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="900dp"
+            android:background="@drawable/blurbackground"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/person_icon"
+                    android:background="@drawable/green_circle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Ram Kumar"
+                    android:textStyle="bold"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d6de" />
+            <LinearLayout
+
+                android:id="@+id/reply_parent_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="visible">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_size"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12sp"
+                    android:weightSum="5"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/Visit_Time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Visit_Time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Visit Time"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/Visit_Time_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:text="04:32 PM"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/Modified_Time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Modified_Time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Modified Time"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:layout_weight="1"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/Modified_Time_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:text="04:32 PM"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/Cluster_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Cluster"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Cluster"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:layout_weight="1"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/cluster_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:text="Nadanam"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/POB_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/POB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="PCB"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:layout_weight="1"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/POB_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:text="5000"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/Feedback_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Feedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Feedback"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:layout_weight="1"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/Feedback_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:text="Good"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:background="#d3d6de" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:padding="12sp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/Work_Type_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Joint_Work"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Joint Work"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/Work_Type_sub_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Ashwin Kumar HQ Name Designation"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="75dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#d3d6de" />
+                    <LinearLayout
+                        android:id="@+id/Cluster_layout_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/Cluster_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="6dp"
+                            android:text="Cluster"
+                            android:layout_marginStart="8dp"
+                            android:textSize="18sp"
+                            android:textColor="#282A3C"
+                            android:layout_weight="1"
+                            android:textIsSelectable="false"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/Cluster_sub_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2"
+                            android:text="Interested, but need some.."
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="16dp"
+                    android:background="#d3d6de" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="12sp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/remark_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="2"
+                        android:visibility="visible">
+                        <TextView
+                            android:id="@+id/remark_sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginStart="8dp"
+                            android:text="View More"
+                            android:drawableEnd="@drawable/baseline_keyboard_arrow_down_24"
+                            android:textSize="18sp"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

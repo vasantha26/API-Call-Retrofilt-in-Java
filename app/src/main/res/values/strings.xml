@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Pharma App</string>
+    <string name="reports">Reports</string>
+    <string name="day_report">Day Report</string>
+    <string name="search">Search</string>
+    <string name="wasim_jaffer_ahmeed_hq_designation">Wasim Jaffer Ahmeed - HQ - designation</string>
+    <string name="check_in_time_and_location">Check IN time &amp; Location</string>
+    <string name="work_type">Work Type</string>
+    <string name="field_work">Field Work</string>
+    <string name="_17_oct_2023_04_32_pm">17 Oct 2023 04:32 PM</string>
+    <string name="no_4_chaimers_road_nandanam_chennai">No.4 Chaimers Road, Nandanam, Chennai.</string>
+    <string name="remarks">Remarks</string>
+    <string name="field_work_planned_according_to_allocation">Field Work planned according to allocation</string>
+    <string name="check_out_time_amp_location"><![CDATA[Check Out time & Location]]></string>
+    <string name="view">View</string>
+    <string name="submitted_date">Submitted date</string>
+    <string name="_20_oct_2023">20 Oct 2023</string>
+    <string name="status">Status</string>
+    <string name="pending">Pending</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO1</string>
+</resources>
